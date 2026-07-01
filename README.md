@@ -7,7 +7,7 @@ The current public MVP uses rule-based logic to simulate how an AI-assisted test
 
 ## Live Demo
 
-Streamlit App: https://llm-test-case-generator-demo-hgufl7mvxd3sxcjxcee5x5.streamlit.app/
+Streamlit App: https://llm-test-case-generator-demo-mpjypw43af6gzh3nygvkvj.streamlit.app/
 
 ## Project Purpose
 
