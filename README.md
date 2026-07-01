@@ -3,7 +3,11 @@
 A job-focused demo project that generates structured software test cases from user stories or requirements.
 
 This repository demonstrates a lightweight **LLM-inspired testing workflow** built with **Python** and **Streamlit**.  
-The current public MVP uses rule-based logic to simulate how an LLM-assisted testing tool could transform requirements into structured test scenarios.
+The current public MVP uses rule-based logic to simulate how an AI-assisted testing tool could transform requirements into structured test scenarios.
+
+## Live Demo
+
+Streamlit App: https://llm-test-case-generator-demo-hgufl7mvxd3sxcjxcee5x5.streamlit.app/
 
 ## Project Purpose
 
@@ -15,6 +19,12 @@ This project was created as a portfolio repository for QA Automation / Software 
 
 It is designed as a safe public demo inspired by research work in LLMs for software testing.
 
+## Current Version
+
+This public MVP uses rule-based logic to demonstrate how software requirements can be transformed into structured test cases in an LLM-inspired workflow.
+
+It is intentionally designed as a portfolio-safe prototype inspired by research in LLMs for software testing. A future version could integrate a real LLM for prompt-based test generation, classification, and refinement.
+
 ## Key Features
 
 - Generate structured test cases from a user story or requirement
@@ -25,7 +35,15 @@ It is designed as a safe public demo inspired by research work in LLMs for softw
   - Context-specific cases such as Security, Validation, or Business Rule
 - Display generated test cases in a readable Streamlit UI
 - Expand detailed steps and expected results
-- Export generated test cases as Markdown
+- Download generated test cases as Markdown
+
+## Live Demo Features
+
+- Enter a user story or requirement
+- Generate positive, negative, and edge-case test scenarios
+- Add context-specific cases such as login, registration, or checkout
+- Review detailed steps and expected results
+- Download generated test cases as Markdown
 
 ## Tech Stack
 
@@ -36,12 +54,12 @@ It is designed as a safe public demo inspired by research work in LLMs for softw
 ## How It Works
 
 The current MVP uses rule-based logic to:
-1. read a user story or requirement
-2. generate general test scenarios
-3. detect keywords such as login, registration, or checkout
-4. append additional context-specific test cases
+1. Read a user story or requirement
+2. Generate general test scenarios
+3. Detect keywords such as login, registration, or checkout
+4. Append additional context-specific test cases
 
-This structure is intended to represent the first public version of a future LLM-powered testing assistant.
+This structure represents the first public version of a future LLM-powered testing assistant.
 
 ## Example Inputs
 
@@ -106,10 +124,12 @@ It complements UI and API automation portfolio projects by showing a more advanc
 
 ## Current Limitations
 
-This public version does **not** yet use a live LLM API.
+This public version does **not** yet use a live LLM API.  
 Instead, it uses rule-based logic as an MVP to demonstrate the workflow safely and clearly.
 
-Possible future improvements:
+## Future Improvements
+
+Possible next improvements for this repository:
 - real LLM integration
 - prompt templates
 - better test case classification
@@ -123,5 +143,5 @@ Possible future improvements:
 Berlin, Germany
 
 - GitHub: https://github.com/anshi43
-- LinkedIn: add-your-link-here
+- LinkedIn: https://www.linkedin.com/in/ankitmavani/
 - Email: mavaniankit09@gmail.com
