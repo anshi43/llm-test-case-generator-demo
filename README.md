@@ -1,7 +1,5 @@
 # LLM Test Case Generator Demo
 
-A job-focused demo project that generates structured software test cases from user stories or requirements.
-
 This repository demonstrates a lightweight **LLM-inspired testing workflow** built with **Python** and **Streamlit**.  
 The current public MVP uses rule-based logic to simulate how an AI-assisted testing tool could transform requirements into structured test scenarios.
 
@@ -9,21 +7,17 @@ The current public MVP uses rule-based logic to simulate how an AI-assisted test
 
 Streamlit App: https://llm-test-case-generator-demo-mpjypw43af6gzh3nygvkvj.streamlit.app/
 
-## Project Purpose
+## What This Project Does
 
-This project was created as a portfolio repository for QA Automation / Software Test Engineer roles, especially roles related to:
-- AI-assisted software testing
-- test case generation
-- requirements-to-test transformation
-- LLM-supported QA workflows
+This project generates structured software test cases from natural-language user stories or requirements.
 
-It is designed as a safe public demo inspired by research work in LLMs for software testing.
+It takes a requirement as input, analyzes it using rule-based logic, and produces categorized test scenarios such as positive, negative, edge-case, and context-specific cases. The application is designed to demonstrate how AI-assisted testing workflows can help transform requirements into more systematic and reusable test design outputs.
 
 ## Current Version
 
-This public MVP uses rule-based logic to demonstrate how software requirements can be transformed into structured test cases in an LLM-inspired workflow.
+The current version uses rule-based logic to demonstrate how software requirements can be transformed into structured test cases in an LLM-inspired workflow.
 
-It is intentionally designed as a portfolio-safe prototype inspired by research in LLMs for software testing. A future version could integrate a real LLM for prompt-based test generation, classification, and refinement.
+A future version could integrate a real LLM for prompt-based test generation, classification, and refinement.
 
 ## Key Features
 
@@ -83,7 +77,7 @@ llm-test-case-generator-demo/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/anshi43/llm-test-case-generator-demo.git
+git clone [https://github.com/anshi43/llm-test-case-generator-demo.git](https://github.com/anshi43/llm-test-case-generator-demo.git)
 cd llm-test-case-generator-demo
 ```
 
@@ -114,18 +108,16 @@ streamlit run app.py
 
 ## Why This Project Matters
 
-This repository is intended to demonstrate:
-- practical thinking around AI-assisted testing
+This repository demonstrates:
 - structured test case generation from requirements
-- how LLM concepts can be applied to software QA workflows
-- a bridge between traditional test design and modern AI-based tooling
-
-It complements UI and API automation portfolio projects by showing a more advanced testing direction.
+- a practical workflow for AI-assisted testing
+- how LLM-inspired concepts can be applied to software QA workflows
+- a bridge between traditional test design and AI-supported tooling
 
 ## Current Limitations
 
-This public version does **not** yet use a live LLM API.  
-Instead, it uses rule-based logic as an MVP to demonstrate the workflow safely and clearly.
+This version does **not** yet use a live LLM API.  
+Instead, it uses rule-based logic as an MVP to demonstrate the workflow clearly.
 
 ## Future Improvements
 
@@ -142,6 +134,6 @@ Possible next improvements for this repository:
 **Ankit Mavani**  
 Berlin, Germany
 
-- GitHub: https://github.com/anshi43
-- LinkedIn: https://www.linkedin.com/in/ankitmavani/
-- Email: mavaniankit09@gmail.com
+- GitHub: [https://github.com/anshi43](https://github.com/anshi43)
+- LinkedIn: [https://www.linkedin.com/in/ankitmavani/](https://www.linkedin.com/in/ankitmavani/)
+- Email: [mavaniankit09@gmail.com](mailto:mavaniankit09@gmail.com)
